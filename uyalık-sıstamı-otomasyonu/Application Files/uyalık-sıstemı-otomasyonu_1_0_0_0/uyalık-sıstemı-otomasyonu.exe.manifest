@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="uyalık-sıstemı-otomasyonu.exe" version="1.0.0.0" publicKeyToken="b25dbb8569c33451" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="uyalık-sıstemı-otomasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="uyalık-sıstemı-otomasyonu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2332616">
+      <assemblyIdentity name="Guna.UI2" version="2.0.2.7" publicKeyToken="E4B9CDD7B4CDE4B4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fY4KhDdFnbDzDnypMDRAsfXG5b/mwIbyRatiYeJiQH8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="uyalık-sıstemı-otomasyonu.exe" size="20448">
+      <assemblyIdentity name="uyalık-sıstemı-otomasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/np91jt+MoP4ZbaXJ9mjo7UzJI/pXVO8CaxgIECnSzU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="uyalık-sıstemı-otomasyonu.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-MOF5822\eminp" issuerKeyHash="15632a282945ebf9c5189083f90f31becd3140b1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jajaTk7wo6Me8mN8526Yl3vInK44CuswHgtlw8xOFdg=</DigestValue></Reference></SignedInfo><SignatureValue>lhkFwKRgBFIKe/7N1TKflMJnaseYBQqKX7kfM+um5lNxi8CzpY/sjsAWIu74TjvAsFh3bon4R09zRZ1SppXn8+4YrVZO+GoaUQzqNpY5rwyqdJBZAO8CuUfIWUcrHviYPl7FYyjqM5zKtyWndd6DR99dBBDQKbR16cAvTMpzVHU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zVdO8on/zbio1A83qIbgfzef+8Eat2ByAXzUInt3fIAxXNyozylGIs3/EXRX3rMxYKGgwiSLk23AGafVx2D/h7xsANXtaMRqTYaTd7lDo/YvQHeoce8eZ04e4Cp1hYdmyylT8ZpxSJz7RdztKxZJ/A4Wg9rl1+u37gxWT6QPauU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d8154eccc3650b1e30eb0a38ae9cc87b97986ee77c63f21ea3a3f04e4edaa88d" Description="" Url=""><as:assemblyIdentity name="uyalık-sıstemı-otomasyonu.exe" version="1.0.0.0" publicKeyToken="b25dbb8569c33451" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MOF5822\eminp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qpYo82FpTFMMjK7uHCZWkIQr5JkHtVDBdwnpyO57zPU=</DigestValue></Reference></SignedInfo><SignatureValue>aIukaFHBwmudh7YmhK9ZI4r/r1mRf85zeFxwO3tvNg3Ki7FHOYLlQGZGbhhbeS6qHfM++971wa8IrS3Wz+k0b3JHso5FQVrU0ezAYOU6p4yk4Mu5wU0s6SJii92wKNVzZVE3bWuLrvF+RE9il6TrH0fArs0FSsYuTcCH06LuU0g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zVdO8on/zbio1A83qIbgfzef+8Eat2ByAXzUInt3fIAxXNyozylGIs3/EXRX3rMxYKGgwiSLk23AGafVx2D/h7xsANXtaMRqTYaTd7lDo/YvQHeoce8eZ04e4Cp1hYdmyylT8ZpxSJz7RdztKxZJ/A4Wg9rl1+u37gxWT6QPauU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQEYRtPmJZcYtJplEkK+vcujANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ATwBGADUAOAAyADIAXABlAG0AaQBuAHAwHhcNMjIwMTAxMTgzOTIwWhcNMjMwMTAyMDAzOTIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE0ATwBGADUAOAAyADIAXABlAG0AaQBuAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM1XTvKJ/824qNQPN6iG4H83n/vBGrdgcgF81CJ7d3yAMVzcqM8pRiLN/xF0V96zMWChoMIki5NtwBmn1cdg/4e8bADV7WjEak2Gk3e5Q6P2L0B3qHHvHmdOHuAqdYWHZsspU/GacUic+0Xc7SsWSfwOFoPa5dfrt+4MVk+kD2rlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAI8c5ch5xH5BmJHpINoImk51Xoq0OyYeqXNhYpeDbU4jlHalHlDpVX7n9je38WgU6R8yfIghW/vdbwiS7Lk0FX6CgGJNEPvkWKxFEZD1VsURkRy0NsTjNh8CZDUInSTVtD3kMXiljYqMs97cOgLwoiC3xZZUkP76fxdk9MbE71ZU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
